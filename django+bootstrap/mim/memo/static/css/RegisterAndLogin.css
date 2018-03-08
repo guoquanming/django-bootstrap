@@ -1,0 +1,115 @@
+.container{
+	width:100%;margin:0 auto;background-color:white;border:2px solid white;
+}
+.container .col-md-offset-2{
+	text-align:center;
+}
+#row2{
+	height:450px;width:95%;margin:0 auto;display:block;background-size:100% 100%;background-image:url(images/register2.png);
+}
+#col21{
+	margin-top:40px;height:80%;background-color:white;opacity:1;padding:0px;
+} 
+#col22{
+	margin-top:40px;height:80%;padding:0px;
+}
+#col22 .row{
+	height:100%;
+}
+#col221{
+	background-color:white;opacity:.85;height:100%;
+}
+#col221 .div1{
+	margin-top:5px;padding:0px;
+}
+#col221 .div2{
+	margin-top:0px;padding:0px;
+}
+#col221 .div3{
+	margin-top:0px;padding:0px;
+}
+#col221 .div1 img{
+	display:inline-block;
+}#col221 .div1 p{
+	font-size:18px;color:rgb(255, 136, 0);font-family:"Microsoft Yahei";display:inline-block;
+}
+#col21 p{
+	margin:0px;padding:0px;
+}
+#slidershow{
+	width:100%;height:100%;
+}
+.carousel-caption{
+	font-size:40px;color:rgb(255, 136, 0);font-family:"Microsoft Yahei";
+}
+#tabbutton1{
+	margin-right:10%;border-bottom:2px solid rgb(255, 136, 0);border-top:1px solid white;border-left:1px solid white;border-right:1px solid white;
+}
+#tabbutton2{
+	
+}
+#tabbutton1 a{
+	font-family:"Microsoft Yahei";color:rgb(255, 136, 0);border:1px solid white;
+}
+#tabbutton2 a{
+	font-family:"Microsoft Yahei";color:black;
+}
+#myTab{
+	border:1px solid white;
+}
+input{
+	border-bottom:2px solid white;background:white;
+	border-top:2px solid white;border-left:1px solid white;border-right:1px solid white;outline:none;
+}
+form .form-group{
+	border-bottom:2px solid rgb(255, 136, 0);border-top:2px solid white;border-left:1px solid white;border-right:1px solid white;background:white;
+}
+#vidider{
+	width:60%;display:inline;
+}
+#yzbotton{
+	display:inline-block;background:rgb(255, 136, 0);color:white;font-family:"Microsoft Yahei";
+	font-size:14px;width:35%;text-decoration:none;cursor:pointer;height:30px;margin:0px;margin-bottom:5px;padding-top:5px;text-align:center;
+}
+#button1,#button2{
+	width:100%;background:rgb(255, 136, 0);color:white;font-family:"Microsoft Yahei";
+}
+.checkbox{
+	margin:0 auto;
+}
+label{
+	font-size:12px;
+}
+#aa{
+	color:rgb(255, 136, 0);text-decoration:none;
+}
+#div3p{
+	text-align:center;font-size:12px;margin:0px;
+}
+#image{
+	margin:0px auto;width:90%;height:30px;padding:0px;text-align:center;
+}
+#image a{
+	margin:0px;padding-right:15px;height:100%;
+}
+#row3{
+	height:170px;width:95%;margin:0 auto;display:block;background:white;
+}
+#row31{
+	height:100%;width:80%;padding:0px;margin:0 auto;
+}
+#row31 div{
+	display:inline-block;text-align:center;height:100%;width:24%;margin:0px;padding:5px;
+}
+#row31 div a{
+	text-decoration:none;font-family:"Microsoft Yahei";color:black;
+}
+#row31 div .ppp a{
+	font-size:18px;color:rgb(255, 136, 0);font-weight:bold;
+}
+#row4{
+	height:50px;width:100%;background:white;	
+}
+#row4 div{
+	text-align:center;
+}

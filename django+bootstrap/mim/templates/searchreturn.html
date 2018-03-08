@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>职位/公司搜索</title>
+</head>
+<body>
+{#用户名#}
+{{ username }}
+
+
+
+{#搜索框#}
+ <form action="/memo/search/" method="post">
+        {% csrf_token %}
+        <input type="text" name="search_content">
+        <input type="submit" value="Submit" id="search_button">
+
+</form>
+
+{#返回符合关键字的职位#}
+    {% for a in position %}
+        {{ a.job }}
+        {{ a.release }}
+        {{ a.salary }}
+        {{ a.experience_required }}
+        {{ a.education_required }}
+        {{ a.job_description }}
+        {{ a.job_required }}
+        {{ a.job_label }}
+        {{ a.is_exigency }}
+        {{ a.job_category }}
+        </br>
+    {% endfor %}
+
+
+{#返回符合关键字的公司#}
+  {% for b in company %}
+        {{ b.company_name }}
+        {{ b.company_scale }}
+        {{ b.company_profile }}
+        {{ b.company_type }}
+        </br>
+    {% endfor %}
+
+
+</body>
+</html>

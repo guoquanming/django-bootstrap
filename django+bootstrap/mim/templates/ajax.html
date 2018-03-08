@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script src="{% static 'js/jquery-1.11.1.min.js'%}"></script>
+    <script type="javascript">
+$("#submit").onclick=function () {
+    $.ajax({
+        url:'regNum',
+        type: "POST",
+        data:{
+            "pthoneNum":phoneNum,
+            'csrfmiddlewaretoken': '{{ csrf_token }}',
+        },
+        dataType:"json",
+        success:function(data){
+            if($.trim(data)=="getIt"){
+                alert("发送成功，这只是个测试!")
+            }
+        },
+    })
+}
+
+    </script>
+</head>
+<body>
+手机号：<input type="text" name="phone" id="phoneNum">
+<input type="submit" value="验证码" id="submit">
+</body>
+</html>

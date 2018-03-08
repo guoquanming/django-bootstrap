@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>条件搜索——职位</title>
+</head>
+<body>
+{#显示结果#}
+
+  {% for a in job %}
+    {{ a.job }}
+    {{ a.salary }}
+    {{ a.education_required }}
+    {{ a.experience_required}}
+    {{ a.job_category }}
+    {{ a.job_count }}
+    {{ a.release_time }}
+        </br>
+    {% endfor %}
+
+</body>
+</html>

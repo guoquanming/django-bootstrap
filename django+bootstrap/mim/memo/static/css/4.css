@@ -1,0 +1,247 @@
+.container{
+	margin:0px auto;padding:0px;width:90%;background:white;
+}
+#row1{
+	margin:0px;padding:0px;
+}
+#row1 .col-md-12{
+	margin:0px;padding-top:0px;height:100px;text-align:center;
+}
+#row2{
+	margin:0px;padding:0px;height:52px;background:rgb(180, 180, 180);
+}
+#row2 .col-md-6 nav .container{
+	width:100%;background:rgb(180, 180, 180);
+}
+#row2 .col-md-6 nav .container .navbar-brand{
+	color:rgb(255, 136, 0);font-size:18px;background:rgb(180, 180, 180);
+	height:35px;margin-top:10px;padding-top:7px;border:2px solid rgb(255, 136, 0);font-family:"Microsoft Yahei";
+}
+#row2 .col-md-4 nav .container{
+	width:100%;background:rgb(180, 180, 180);
+}
+.navbar-nav li a{
+	color:white;font-family:"Microsoft Yahei";font-size:14px;
+}
+.dropdown-menu li{
+	width:55%;text-align:center;list-style-type:none;padding:0px;
+}
+.dropdown-menu li a{
+	background:rgb(165, 165, 165);padding:0px;
+}
+#row3{
+	margin:0px auto;padding:0px;height:1500px;
+}
+#row3 .col-md-7{
+	padding:0px;height:97%;
+}
+#row3 .col-md-7 #container2{
+	margin:0px;width:97%;height:100%;
+}
+#row3-7-1{
+	margin:0px;padding:0px;width:100%;height:170px;border-bottom:3px solid rgb(255, 136, 0);background:rgb(234, 234, 234);
+}
+#row3-7-2{
+	margin:0px;padding-top:20px;padding-left:20px;width:100%;height:430px;background:rgb(234, 234, 234);border-bottom:3px solid rgb(255, 136, 0);
+}
+#row3-7-3{
+	padding-top:10px;padding-left:20px;margin:0px 0px 5px 0px;width:100%;height:70px;background:rgb(234, 234, 234);
+}
+#row3-7-4{
+	padding-top:10px;padding-left:20px;margin:5px 0px 15px 0px;width:100%;height:90px;background:rgb(234, 234, 234);
+}
+#row3-7-5{
+	padding-top:10px;padding-left:20px;margin:5px 0px 15px 0px;width:100%;height:530px;background:rgb(234, 234, 234);
+}
+#row3-7-6{
+	padding:0px;margin:25px 0px 0px 0px;width:100%;height:30px;font-weight:bold;font-size:16px;font-family:"Microsoft Yahei";
+}
+#row3-7-1 .media{
+	margin-top:25px;margin-left:25px;
+}
+#row3-7-1 .media .pull-right .head{
+	font-family:"Microsoft Yahei";font-weight:bold;color:#000;
+}
+#row3-7-1 .media .pull-right{
+	text-decoration:none;border:1px solid white;
+}
+#row3-7-1 .media .pull-right .media-object{
+	margin-right:10px;
+}
+#row3-7-1 .media .pull-right .head span{
+	color:rgb(255, 136, 0);font-weight:bold;
+}
+#row3-7-1 .media .media-body .media-heading{
+	font-size:28px;
+}
+#row3-7-1 .media .media-body .media-heading small{
+	color:rgb(255, 136, 0);
+}
+#row3-7-1 .media .media-body .mb{
+	display:inline-block;padding-right:5px;margin-right:5px;border-right:1px solid rgb(181,181,181);font-size:24px;
+}
+#mbfirst{
+	color:rgb(255, 136, 0);
+}
+#row3-7-1 .media .media-body .mb1{
+	color:rgb(255, 136, 0);
+}
+#row3-7-1 .media .media-body .mb2{
+	color:rgb(255, 136, 0);font-weight:bold;
+}
+#row3-7-2 .r372head{
+	font-weight:bold;font-size:16px;margin-bottom:15px;
+}
+#row3-7-2 ul{
+	list-style-type:none;font-weight:bold;
+}
+#row3-7-2 ul li{
+	margin-bottom:3px;font-size:15px;
+}
+#row3-7-2 ul .r372b{
+	font-size:16px;
+}
+#row3-7-3 p{
+	font-size:16px;font-weight:bold;
+}
+#row3-7-3 .p2{
+	color:rgb(255, 136, 0);
+}
+#row3-7-4 p{
+	margin:0px;font-weight:bold;
+}
+#row3-7-4 .r374p{
+	color:rgb(255, 136, 0);
+}
+#row3-7-5 .r375d1{
+	font-size:16px;font-weight:bold;margin-bottom:15px;
+}
+#row3-7-5 .media{
+	margin-right:15px;padding-bottom:5px;position:relative;border:1px solid rgb(181,181,181);
+}
+#row3-7-5 .media .media-body .media-heading1{
+	margin:0px;padding-top:10px;font-size:20px;font-weight:bold;font-family:"Microsoft Yahei";
+}
+#row3-7-5 .media .media-body .media-heading1 small{
+	color:rgb(255, 136, 0);
+}
+#row3-7-5 .media .media-body .mbs{
+	display:inline-block;padding-right:5px;margin-right:5px;border-right:1px solid rgb(181,181,181);font-size:16px;
+}
+#row3-7-5 .media .media-body .mbs span{
+	color:rgb(255, 136, 0);
+}
+#row3-7-5 .media .media-body .mbs1{
+	color:rgb(255, 136, 0);
+}
+.mediaheading{
+	position:absolute;top:0px;right:0px;width:50%;height:100%;margin:0px;padding:0px;
+}
+.jiaji{
+	position:absolute;top:0px;right:0%;z-index:2;
+}
+#row3-7-5 .media .mediaheading .media{
+	height:100%;width:100%;margin-top:10px;border:1px solid rgb(234, 234, 234);
+}
+#row3-7-5 .media .mediaheading .media a h5{
+	color:#333;
+}
+#row3-7-5 h3{
+	color:#333;
+}
+#row3-7-5 .media .mediaheading .media .media-object{
+	margin-top:15px;
+}
+#row3-7-5 .media .mediaheading .media .huoyuedu{
+	color:rgb(255, 136, 0);
+}
+#row3-7-5 .media .mediaheading .media .media-heading{
+	font-weight:bold;font-size:15px;
+}
+#row3-7-5 .media .mediaheading .media .government{
+	color:rgb(165, 165, 165);
+}
+#row3-7-5 a{
+	text-decoration:none;
+}
+.hengxian{
+	position:absolute;width:20px;height:90%;top:5px;left:48%;border-left:1px solid rgb(181,181,181);
+}
+#row3-7-6 a{
+	text-decoration:none;color:#333;
+}
+
+
+
+#row3 .col-md-3{
+	padding:0px;height:97%;
+}
+#row3 .col-md-3 #container3{
+	margin:0px;width:100%;height:100%;
+}
+#row3-3-1{
+	margin:0px;padding:0px;width:100%;height:205px;text-align:center;padding-top:15px;background:rgb(234, 234, 234);border-bottom:3px solid rgb(180, 180, 180);
+}
+#row3-3-2{
+	margin:0px 0px 10px 0px;padding:5px 15px;width:100%;height:430px;background:rgb(234, 234, 234);
+}
+#row3-3-2 #map{
+	margin:0px;padding:0px;width:100%;height:280px;
+}
+#row3-3-3{
+	margin:0px 0px 10px 0px;padding:0px;width:100%;height:150px;
+}
+#row3-3-4{
+	margin:0px 0px 10px 0px;padding:20px 0px 10px 15px;width:100%;height:280px;background:rgb(234, 234, 234);
+}
+#row3-3-5{
+	margin:0px 0px 10px 0px;padding:20px 0px 10px 15px;width:100%;height:260px;background:rgb(234, 234, 234);
+}
+#row3-3-1 div{
+	margin:5px 0px 5px 0px;
+}
+#row3-3-1 .r331d1{
+	font-size:16px;font-weight:bold;font-family:"Microsoft Yahei";
+}
+#row3-3-1 .r331d2{
+	color:rgb(255, 136, 0);
+}
+#row3-3-2 a{
+	text-decoration:none;color:#333;
+}
+#row3-3-2 .more{
+	font-size:16px;font-weight:bold;font-family:"Microsoft Yahei";margin-top:5px;
+}
+#row3-3-3 img{
+	width:100%;height:100%;
+}
+#row3-3-4 div{
+	font-size:18px;font-weight:bold;font-family:"Microsoft Yahei";margin-bottom:10px;
+}
+#row3-3-4 ul a{
+	text-decoration:none;
+}
+#row3-3-4 ul a li{
+	list-style-type:none;font-size:16px;font-weight:bold;font-family:"Microsoft Yahei";color:#000;margin-bottom:20px;
+}
+#row3-3-5 div{
+	font-weight:bold;font-family:"Microsoft Yahei";margin-bottom:15px;font-size:16px;
+}
+#row3-3-5 .r335d1{
+	font-size:18px;
+}
+#row3-3-5 .media{
+	margin-right:20px;
+}
+#row3-3-5 .media-heading{
+	font-weight:bold;
+} 
+
+
+
+
+
+
+
+
+

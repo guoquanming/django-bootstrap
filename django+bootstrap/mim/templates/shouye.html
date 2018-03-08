@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+当前用户：{{ username }}<br>
+热门职位推荐：<br>
+{#显示结果#}
+
+  {% for a in job %}
+{#    {{ a.contact_position }}#}
+    {{ a.job }}
+    {{ a.education_required }}
+    {{ a.company_name}}
+    {{ a.provence }}
+    {{ a.company_type }}
+    {{ a.company_scale }}
+        </br>
+    {% endfor %}
+<br>
+公司推荐：<br>
+
+  {% for b in company %}
+        {{ b.company_name }}
+        {{ b.industry_categroy }}
+        {{ b.company_type }}
+         {% if b.vip == '1' %}
+               vip
+            {% elif b.vip == '0' %}
+               非vip
+            {% endif %}
+
+      发布的职位数量：{{ b.job_count }}
+      活跃度：{{ b.activity_degree }}
+      <br>
+    {% endfor %}
+
+<br>
+
+活动推荐：<br>
+ {% for a in active %}
+
+{#    {{ a.contact_position }}#}
+    {{ a.data_storage }}
+    {{ a.content }}
+        </br>
+    {% endfor %}
+
+
+<br>
+</body>
+</html>

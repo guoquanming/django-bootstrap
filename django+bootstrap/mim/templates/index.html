@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#<ul>#}
+{##}
+{#{% for a in companyIntrdouction %}#}
+{#    <li>{{ a.data_store}}</li>#}
+{#    <li>{{ a.content}}</li>#}
+{#{% endfor %}#}
+{##}
+{#</ul>#}
+{#{{ companyIntrdouction.title }}#}
+{#</br>#}
+{#{{ companyIntrdouction.data_store }}#}
+{#</br>#}
+
+{{username}}
+
+{#搜索框#}
+ <form action="/memo/search/" method="post">
+        {% csrf_token %}
+        <input type="text" name="search_content">
+        <input type="submit" value="Submit" id="search_button">
+</form>
+
+{#广告位#}
+职位搜索:
+ <form action="/memo/job_search/" method="post">
+        {% csrf_token %}
+        <input type="text" name="job_name">
+        <input type="submit" value="Submit" id="search_button">
+</form>
+
+
+按地理位置分类:
+<form action="/memo/company_sort_search/" method="post">
+        {% csrf_token %}
+        <input type="text" name="company_sort_search">
+        <input type="submit" value="Submit" id="search_button">
+</form>
+
+{#显示结果#}
+  {% for b in company %}
+        {{ b.company_name }}
+        {{ b.provence }}
+        {{ b.industry_categroy }}
+        </br>
+    {% endfor %}
+
+
+{#///////////////////////////////////////////////////////////////#}
+按职位类型返回岗位和对应公司信息:
+ <form action="/memo/job_category/" method="post">
+        {% csrf_token %}
+        <input type="text" name="job_category">
+        <input type="submit" value="Submit" id="search_button">
+</form>
+{#显示结果#}
+
+  {% for a in test %}
+{#    {{ a.contact_position }}#}
+    {{ a.job }}
+    {{ a.education_required }}
+    {{ a.company_name}}
+    {{ a.provence }}
+    {{ a.company_type }}
+    {{ a.company_scale }}
+        </br>
+    {% endfor %}
+
+
+
+
+{#活动广场#}
+
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>公司介绍</title>
+</head>
+<body>
+{{ null }}<br>
+
+
+ logo：
+
+ {{ data.data_storage }}
+ </br>
+公司名称：
+ {{ company.company_name }}
+ </br>
+是否vip：
+ {{ company.vip }}
+ </br>
+公司介绍：
+ {{ company.company_profile }}
+ </br>
+
+ 公司基本情况：</br>
+ {{ company.industry_categroy }}
+ {{ company.company_type }}
+ {{ company.company_scale }}
+ {{ company.provence }}
+ </br>
+
+招聘职位：</br>
+{#显示结果#}
+
+  {% for a in job %}
+{#    {{ a.contact_position }}#}
+    {{ a.job }}
+    {{ a.education_required }}
+    {{ a.company_name}}
+    {{ a.provence }}
+    {{ a.company_type }}
+    {{ a.company_scale }}
+    {{ a.job_label }}
+        </br>
+    {% endfor %}
+
+
+
+面试评价：<br>
+{#显示结果#}
+
+  {% for a in pingjia %}
+
+{{ a.application }}
+{{ a.interview_job }}
+{{ a.overall_score }}
+{{ a.overall }}
+{{ a.data }}
+{{ a.interview_process }}
+{{ a.other }}
+{{ a.dot }}
+        </br>
+    {% endfor %}
+
+</body>
+</html>

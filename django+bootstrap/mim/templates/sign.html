@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录注册</title>
+</head>
+<body>
+
+
+{#  手机验证码部分#}
+<form action="/memo/regist/" method="post">
+       {% csrf_token %}
+    手机号：<input type="text" name="phone">
+   <input type="submit" value="验证码" id="sign_button">
+   </form>
+
+{#用户注册/登录#}
+  <form action="/memo/sign_in/" method="post">
+        {% csrf_token %}
+            用户名： <input type="text" name="user_name"><br>
+          密码： <input type="text" name="user_password"><br>
+        验证码： <input type="text" name="regNum">
+
+      <br>
+        <input type="submit" value="登录" id="sign_button">
+    </form>
+
+
+{{ succeed.report }}
+{{ error.report }}
+{{ name_null.report }}
+
+
+{#<a href="../index">index</a>#}
+</body>
+</html>

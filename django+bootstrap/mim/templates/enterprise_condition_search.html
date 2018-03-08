@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>条件搜索——企业</title>
+</head>
+<body>
+{#显示结果#}
+
+  {% for a in company %}
+logo:{{ a.data_storage }}
+    {{ a.company_name }}
+    {{ a.industry_categroy }}
+    {{ a.company_type }}
+    {{ a.vip}}
+    {{ a.provence }}
+    {{ a.job_count }}
+    {{ a.activity_degree }}
+        </br>
+    {% endfor %}
+
+
+</body>
+</html>
